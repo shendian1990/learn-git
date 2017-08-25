@@ -1,24 +1,2 @@
-#include <string>
-#include <map>
-#include <iostream>
-#include<stdlib.h>
-#include <string.h>
-#include "messageFix.h"
-using namespace std;
-int main() {
-	MessageFix a;
-	string str;	
-	a[4] = "505";
-	a[12] = "1";
-	a[11] = "617";
-	a[5] = "10120";
-
-	a.toStr(str);
-	cout << str;
-	system("pause");
-	return 0;
-}
-
-
-"hello"
-******************
+Branch Dev
+Creating a new branch is quick.
